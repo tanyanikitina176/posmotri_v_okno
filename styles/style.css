@@ -45,7 +45,6 @@ ol {
   align-items: flex-end;
   gap: 30px;
   max-width: 1140px;
-  padding-top: 80px;
 }
 
 .result {
@@ -82,8 +81,8 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
+  width: max-content;
   height: 298px;
-  overflow-x: hidden;
   overflow-y: auto;
 }
 
@@ -204,7 +203,7 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-  outline-offset: -3px;
+  outline-offset: 2px;
 }
 
 .search-form__pseudo-checkbox {
